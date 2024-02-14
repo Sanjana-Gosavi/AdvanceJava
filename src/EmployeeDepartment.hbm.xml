@@ -1,0 +1,10 @@
+<hibernate-mapping> 
+	<class name="com.prowings.hibernatedemo.EmployeeDepartment" table="EmployeeDepartment"> 
+		<id name="deptId" type="int" column="deptId"> 
+			<generator class="assigned"/> 
+		</id> 
+		<property name="deptName"> 
+			<column name="deptName"/> 
+		</property> 
+	</class> 
+</hibernate-mapping>
